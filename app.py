@@ -53,13 +53,13 @@ with t1:
     rc = m.risk_contributions(asset_rets, weights).rename("risk share")
     df = pd.concat([weights.rename("weight"), rc], axis=1).rename_axis("ticker").reset_index()
     st.plotly_chart(px.bar(df.melt("ticker"), x="ticker", y="value", color="variable",
-                           barmode="group"), use_container_width=True)
+                           barmode="group"), width='stretch')
     st.caption("Weight vs share of total volatility – a big gap means hidden concentration.")
 with t2:
     st.plotly_chart(px.imshow(asset_rets.corr(), zmin=-1, zmax=1, text_auto=".2f",
-                              color_continuous_scale="RdBu_r"), use_container_width=True)
+                              color_continuous_scale="RdBu_r"), width='stretch')
 with t3:
-    st.plotly_chart(px.area(m.drawdown_series(port)), use_container_width=True)
+    st.plotly_chart(px.area(m.drawdown_series(port)), width='stretch')
 with t4:
     res = run_all(holdings, SCENARIOS)
     st.dataframe(res.style.format({"pnl": "₹{:,.0f}", "pnl_pct": "{:.1%}"}))
