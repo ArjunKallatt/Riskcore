@@ -116,6 +116,7 @@ https://freefincal.com/download-historical-total-returns-index-data-52-nse-indic
 https://freefincal.com/mutual-fund-nav-history-downloader-amfi-yahoo-finance/,freefincal.com,agent6
 https://freefincal.com/sebis-maximum-risk-matrix-for-debt-mutual-funds/,freefincal.com,agent8
 https://gist.github.com/donbr/ed2f0ff63f2d3cc4c24d4a1b7131908e,gist.github.com,agent3
+https://github.com/AI4Finance-Foundation/FinRL,github.com,agent11_crosscheck
 https://github.com/AmruthPillai/AMFI-NAV-History-Scraper,github.com,agent6
 https://github.com/ArturSepp/OptimalPortfolios,github.com,agent4
 https://github.com/ArturSepp/QuantInvestStrats,github.com,agent4
@@ -143,6 +144,7 @@ https://github.com/aeron7/nsepython,github.com,agent4
 https://github.com/afadil/wealthfolio,github.com,agent9
 https://github.com/amphibian-dev/toad,github.com,agent4
 https://github.com/angel-one/smartapi-python,github.com,agent6
+https://github.com/ankitjha67/baselkit,github.com,agent11_crosscheck
 https://github.com/api-evangelist/aladdin-studio,github.com,agent3
 https://github.com/apiwit1604/Portfolio_Value-at-Risk_Engine_and_Dashboard,github.com,agent9
 https://github.com/arnobotha/IFRS9-SICR-Definitions-Logit,github.com,agent4
@@ -167,6 +169,7 @@ https://github.com/cloudQuant/fincore,github.com,agent4
 https://github.com/codereverser/casparser,github.com,agent9
 https://github.com/codereverser/casparser/issues,github.com,agent9
 https://github.com/convexfi/riskparity.py,github.com,agent4
+https://github.com/cvxgrp/cvxportfolio,github.com,agent11_crosscheck
 https://github.com/cvxpy/cvxpy,github.com,agent4
 https://github.com/dagster-io/dagster,github.com,agent7
 https://github.com/dask/dask,github.com,agent7
@@ -188,6 +191,7 @@ https://github.com/grantjenks/python-diskcache,github.com,agent7
 https://github.com/guillermo-navas-palencia/optbinning,github.com,agent4
 https://github.com/holoviz/panel,github.com,agent7
 https://github.com/hudson-and-thames/mlfinlab,github.com,agent4
+https://github.com/husaam-atq/volatility-risk-forecasting-platform,github.com,agent11_crosscheck
 https://github.com/itlubber/scorecardpipeline,github.com,agent4
 https://github.com/jankrepl/deepdow,github.com,agent4
 https://github.com/jax-ml/jax,github.com,agent7
@@ -199,6 +203,7 @@ https://github.com/man-group/ArcticDB,github.com,agent7
 https://github.com/man-group/arctic,github.com,agent7
 https://github.com/marksguo/frtb-ima-risk-monitor,github.com,agent7
 https://github.com/mementum/backtrader,github.com,agent4
+https://github.com/microsoft/qlib,github.com,agent11_crosscheck
 https://github.com/mourarthur/awesome-credit-modeling,github.com,agent4
 https://github.com/naenumtou/ifrs9,github.com,agent4
 https://github.com/nautechsystems/nautilus_trader,github.com,agent4
@@ -654,6 +659,7 @@ https://www.scconline.com/blog/post/2024/07/17/rbi-revises-master-directions-on-
 https://www.sciencedirect.com/science/article/pii/S0016718519302520,sciencedirect.com,agent3
 https://www.sciencedirect.com/science/article/pii/S0377221716001004,sciencedirect.com,agent5
 https://www.screener.in/features/,screener.in,agent1
+https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100208.html,sebi.gov.in,agent11_crosscheck
 https://www.sebi.gov.in/sebi_data/attachdocs/1424862077270.pdf,sebi.gov.in,agent8
 https://www.sebi.gov.in/sebi_data/attachdocs/nov-2025/1763372767700.pdf,sebi.gov.in,agent8
 https://www.sebi.gov.in/sebi_data/meetingfiles/oct-2024/1728550911419_1.pdf,sebi.gov.in,agent8

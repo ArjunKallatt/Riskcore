@@ -1,0 +1,9 @@
+must_read,paper,authors,year,summary,build_implication,link
+Yes,Portfolio Selection,Harry Markowitz,1952,Mean-variance portfolio selection / efficient portfolios,Baseline optimizer and sanity check,https://doi.org/10.2307/2975974
+Yes,Common risk factors in the returns on stocks and bonds,Eugene F. Fama; Kenneth R. French,1993,Five common risk factors across equity/bond returns,Factor exposure / attribution foundation,https://doi.org/10.1016/0304-405X(93)90023-5
+Yes,Optimization of Conditional Value-at-Risk,R. Tyrrell Rockafellar; Stanislav Uryasev,2000,CVaR / Expected Shortfall optimization,Formal ES engine and optimization,https://www.jstor.org/stable/2699986
+Yes,Techniques for Verifying the Accuracy of Risk Measurement Models,Paul H. Kupiec,1995,VaR exception-rate testing,VaR backtesting,https://www.ssrn.com/abstract=702397
+Yes,On the Pricing of Corporate Debt: The Risk Structure of Interest Rates,Robert C. Merton,1974,Structural credit risk / default,Structural PD foundation,https://doi.org/10.2307/2326104
+No,Evaluating Interval Forecasts,Peter F. Christoffersen,1998,Conditional coverage / interval forecast testing,Detect VaR breach dependence,https://doi.org/10.1016/S0304-4076(97)00064-7
+No,Conditional Value-at-Risk for General Loss Distributions,R. Tyrrell Rockafellar; Stanislav Uryasev,2002,General CVaR formulation,Extend ES beyond one distribution,https://doi.org/10.21314/JOR.2002.024
+No,Risk-parity / equal-risk-contribution literature,Thierry Maillard; Thierry Roncalli; Jérôme Teïletche,2010,Equal risk contribution portfolio construction,Risk-budgeted allocation,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1271972

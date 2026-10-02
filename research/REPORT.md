@@ -172,6 +172,8 @@ Full table: [`csv/open_source_repos.csv`](csv/open_source_repos.csv) (92 repos).
 | Repo | Why | Link |
 |---|---|---|
 | OpenSourceRisk/Engine (ORE) | Closest open "Aladdin-like" engine (XVA, VaR, SIMM). Too heavy; use as a methodology reference | https://github.com/OpenSourceRisk/Engine |
+| ankitjha67/baselkit (PyPI `creditriskengine`) | Apache-2.0 credit-risk library with **Ind AS 109 + RBI IRAC** functions (`classify_irac`, `irac_to_ifrs9_stage`, `rbi_minimum_provision`). Single author, 18 releases in 4 months, very broad scope: use as a **cross-check oracle**, not a core dependency, until its code is reviewed (added from the external cross-check, §11) | https://github.com/ankitjha67/baselkit |
+| husaam-atq/volatility-risk-forecasting-platform | MIT DuckDB + Streamlit VaR/ES platform with Kupiec/Christoffersen backtests. Architecture reference | https://github.com/husaam-atq/volatility-risk-forecasting-platform |
 | ShrishDhuria/IFRS9_ECL | MIT Streamlit ECL engine with a SICR waterfall and Excel mirrors. Only 2 stars, so use it as a design checklist | https://github.com/ShrishDhuria/IFRS9_ECL |
 | naenumtou/ifrs9 | Full IFRS 9 notebooks, **no licence**. Read only | https://github.com/naenumtou/ifrs9 |
 | open-risk/openNPL | Borrow the loan-tape schema ideas (MIT) | https://github.com/open-risk/openNPL |
@@ -220,7 +222,7 @@ Full table: [`csv/data_sources.csv`](csv/data_sources.csv) (83 sources). Only ab
 | Source | Data type | Coverage | Cost | API? | License / terms | Link |
 |---|---|---|---|---|---|---|
 | **AMFI NAVAll.txt** | Latest NAV, all Indian MF schemes | India, daily | Free | File (de facto API) | No explicit open licence; widely reused | https://www.amfiindia.com/spages/NAVAll.txt |
-| AMFI NAV history | Historical NAV (90-day windows) | India | Free | Unofficial endpoint | ⚠ A snippet says the old format ran "only till 30 Sep 2026", so expect breakage | https://www.amfiindia.com/net-asset-value/nav-download |
+| AMFI NAV history | Historical NAV (90-day windows) | India | Free | Unofficial endpoint | ⚠ Old format ran "only till 30 Sep 2026", corroborated by a second independent source (§11). Use MFapi.in or historical-mf-data for history | https://www.amfiindia.com/net-asset-value/nav-download |
 | **MFapi.in** | JSON NAV history, 10k+ schemes | India | Free | Yes, no key | Community project, no SLA | https://www.mfapi.in/ |
 | **captn3m0/historical-mf-data** | Full AMFI NAV history (SQLite) | India | Free | Download | MIT (repo) | https://github.com/captn3m0/historical-mf-data |
 | NSE bhavcopy (UDiFF) / All Reports | EOD equities, F&O, indices | India, 1994+ | Free | No official API | **ToS bans automated collection and redistribution** | https://www.nseindia.com/all-reports/ |
@@ -432,7 +434,8 @@ From Agent 10 ([`agents/agent10.md`](agents/agent10.md)), which cross-checked ag
 7. IRACP provisioning percentages for NBFCs.
 8. The 13 Mar 2020 Impairment Reserve circular, against the primary text.
 9. AMFI liquidity-stress parameters.
-10. Riskometer bands and PRC credit-risk thresholds (MF Master Circular, 27 Jun 2024).
+10. Riskometer bands and PRC credit-risk thresholds. Check against the **SEBI MF Master Circular of March 2026** (lead from the external cross-check), which may supersede the 27 Jun 2024 version.
+11. RBI NBFC concentration-risk directions and their 2026 amendment; RBI NBFC ALM/liquidity directions (2025), including draft vs final status and the ₹100 cr threshold.
 
 ### Bugs found in the current code (fix in week 1)
 - **No FX conversion.** US holdings priced in USD are mixed with INR.
@@ -520,7 +523,35 @@ This assumes about 10–12 hours a week (three evenings plus a weekend), about 6
 
 ---
 
-## 11. Bibliography
+## 11. Cross-check against external reports
+
+You also provided two "Mini-Aladdin" reports from another AI research tool, stored in [`external/`](external/). Full comparison: [`agents/agent11_crosscheck.md`](agents/agent11_crosscheck.md).
+
+**Where they agree with this report:**
+- Build an auditable, India-first analytics layer, not an Aladdin clone.
+- Use a common data model and a run/result ledger.
+- Store regulatory rules as effective-dated data.
+- Treat licences as architecture.
+
+**Where they are wrong:**
+- **They list the RBI 2026 ECL floors as a v2 must-have** ("PD 0.03%, LGD 70%, 5% EAD"). Those Directions cover commercial banks, not NBFCs, and "5% EAD" appears in no source.
+- **They make Ind AS 109 ECL the P0 feature for small NBFCs** and miss that most small NBFCs are on IRACP.
+- **"Jio BlackRock brings Aladdin to India" is mischaracterised.** Jio BlackRock is an asset-management joint venture using Aladdin internally.
+- **The first report has stale star counts and lists vectorbt as plain "Apache-2.0"**, missing its Commons Clause.
+- **They list a blog post and a news item as "must-read papers".**
+- **Their papers CSV has wrong DOIs** (Christoffersen 1998; Rockafellar-Uryasev 2002), and their Basel stress-testing link is the 2009 version, superseded by d450 (2018).
+
+**What they add, now merged into this report:**
+- **baselkit** and the DuckDB/Streamlit VaR reference platform (§3b).
+- **Three regulatory leads to verify** (§9): the SEBI MF Master Circular of Mar 2026, the RBI 2026 NBFC concentration and provisioning amendments, and the RBI NBFC ALM directions (2025).
+- **Corroboration** of the AMFI format change and of the RBI ECL Directions reference number.
+- **Two design ideas to adopt:**
+  - A **"Why?" drawer** on every metric, showing method, window, data cut, coverage, top drivers and a plain-English meaning. Build it in week 3 alongside the VaR page.
+  - A **rule-registry schema**: jurisdiction, regulator, entity type, product, effective_from/to, threshold, source, version. Use it for the dated parameter tables from week 5.
+
+---
+
+## 12. Bibliography
 
 - **Every URL from every agent is in [`csv/bibliography.csv`](csv/bibliography.csv).** It has 715 unique URLs, each with its domain and the agents that cited it.
 - **Each agent file ends with its own bibliography** that separates pages actually opened from search-result-only links and unverified links, with dates and ⚠ flags on sources more than 3 years old:
@@ -534,6 +565,7 @@ This assumes about 10–12 hours a week (three evenings plus a weekend), about 6
   - [Agent 8 — regulation](agents/agent8.md)
   - [Agent 9 — community](agents/agent9.md)
   - [Agent 10 — critique](agents/agent10.md)
+  - [Agent 11 — cross-check of external reports](agents/agent11_crosscheck.md)
 - **Not covered at all** (blocked, or the search allowance ran out):
   - Reddit, Quant StackExchange, YouTube, LinkedIn and Wilmott.
   - MProfit, PortfolioPilot, Empower, Groww, Tijori and StockEdge.

@@ -1,0 +1,63 @@
+track,source,link,verification_note
+commercial,BlackRock Aladdin,https://www.blackrock.com/aladdin,Primary/vendor page; pricing generally not public
+commercial,MSCI Barra / PortfolioManager,https://www.msci.com/our-solutions/analytics/barra-portfolio-manager,Primary/vendor page; pricing generally not public
+commercial,SimCorp Axioma Risk,https://www.simcorp.com/products/axioma/axioma-risk,Primary/vendor page; pricing generally not public
+commercial,SimCorp Axioma Portfolio Analytics,https://www.simcorp.com/products/axioma/portfolio-analytics,Primary/vendor page; pricing generally not public
+commercial,SimCorp Axioma Portfolio Optimizer,https://www.simcorp.com/products/axioma/portfolio-optimizer,Primary/vendor page; pricing generally not public
+commercial,Murex MX.3,https://www.murex.com/en/investment-management,Primary/vendor page; pricing generally not public
+commercial,Clearwater Analytics,https://clearwateranalytics.com/,Primary/vendor page; pricing generally not public
+commercial,Charles River IMS,https://www.crd.com/,Primary/vendor page; pricing generally not public
+commercial,FactSet Portfolio Analytics,https://www.factset.com/,Primary/vendor page; pricing generally not public
+commercial,Bloomberg PORT,https://www.bloomberg.com/professional/product/portfolio-and-risk-analytics/,Primary/vendor page; pricing generally not public
+commercial,Addepar,https://addepar.com/,Primary/vendor page; pricing generally not public
+commercial,smallcase,https://www.smallcase.com/,Primary/vendor page; pricing generally not public
+commercial,Finastra Loan IQ,https://www.finastra.com/lending/loan-iq,Primary/vendor page; pricing generally not public
+commercial,Oracle Financial Services / OFSAA,https://www.oracle.com/financial-services/financial-services-analytical-applications/,Primary/vendor page; pricing generally not public
+commercial,S&P Global Credit Analytics / RiskGauge,https://www.spglobal.com/market-intelligence/en/solutions/credit-analytics,Primary/vendor page; pricing generally not public
+commercial,Experian credit risk modelling,https://www.experian.com/decision-analytics/credit-risk-modelling.html,Primary/vendor page; pricing generally not public
+commercial,Moody’s Analytics,https://www.moodys.com/,Primary/vendor page; pricing generally not public
+commercial,FICO,https://www.fico.com/,Primary/vendor page; pricing generally not public
+commercial,SAS,https://www.sas.com/,Primary/vendor page; pricing generally not public
+commercial,CRIF,https://www.crif.com/,Primary/vendor page; pricing generally not public
+commercial,TransUnion CIBIL,https://www.transunioncibil.com/,Primary/vendor page; pricing generally not public
+open_source,QuantLib,https://github.com/lballabio/QuantLib,Repository metadata; some exact commit dates not surfaced
+open_source,Riskfolio-Lib,https://github.com/dcajasn/Riskfolio-Lib,Repository metadata; some exact commit dates not surfaced
+open_source,PyPortfolioOpt,https://github.com/robertmartin8/PyPortfolioOpt,Repository metadata; some exact commit dates not surfaced
+open_source,skfolio,https://github.com/skfolio/skfolio,Repository metadata; some exact commit dates not surfaced
+open_source,cvxportfolio,https://github.com/cvxgrp/cvxportfolio,Repository metadata; some exact commit dates not surfaced
+open_source,QuantConnect Lean,https://github.com/QuantConnect/Lean,Repository metadata; some exact commit dates not surfaced
+open_source,Backtrader,https://github.com/mementum/backtrader,Repository metadata; some exact commit dates not surfaced
+open_source,pyfolio,https://github.com/quantopian/pyfolio,Repository metadata; some exact commit dates not surfaced
+open_source,empyrical,https://github.com/quantopian/empyrical,Repository metadata; some exact commit dates not surfaced
+open_source,FinRL,https://github.com/AI4Finance-Foundation/FinRL,Repository metadata; some exact commit dates not surfaced
+open_source,OpenBB,https://github.com/OpenBB-finance/OpenBB,Repository metadata; some exact commit dates not surfaced
+open_source,vectorbt,https://github.com/polakowo/vectorbt,Repository metadata; some exact commit dates not surfaced
+open_source,awesome-quant,https://github.com/wilsonfreitas/awesome-quant,Repository metadata; some exact commit dates not surfaced
+paper,Portfolio Selection,https://doi.org/10.2307/2975974,DOI/SSRN/JSTOR/official publication landing page
+paper,Common risk factors in the returns on stocks and bonds,https://doi.org/10.1016/0304-405X(93)90023-5,DOI/SSRN/JSTOR/official publication landing page
+paper,Optimization of Conditional Value-at-Risk,https://www.jstor.org/stable/2699986,DOI/SSRN/JSTOR/official publication landing page
+paper,Techniques for Verifying the Accuracy of Risk Measurement Models,https://www.ssrn.com/abstract=702397,DOI/SSRN/JSTOR/official publication landing page
+paper,On the Pricing of Corporate Debt: The Risk Structure of Interest Rates,https://doi.org/10.2307/2326104,DOI/SSRN/JSTOR/official publication landing page
+paper,Evaluating Interval Forecasts,https://doi.org/10.1016/S0304-4076(97)00064-7,DOI/SSRN/JSTOR/official publication landing page
+paper,Conditional Value-at-Risk for General Loss Distributions,https://doi.org/10.21314/JOR.2002.024,DOI/SSRN/JSTOR/official publication landing page
+paper,Risk-parity / equal-risk-contribution literature,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1271972,DOI/SSRN/JSTOR/official publication landing page
+data,AMFI India,https://www.amfiindia.com/net-asset-value/nav-history,Official/data-provider page
+data,NSE / NSE Data & Analytics,https://www.nseindia.com/market-data/real-time-data-subscription,Official/data-provider page
+data,RBI DBIE / Data Releases,https://data.rbi.org.in/,Official/data-provider page
+data,FRED,https://fred.stlouisfed.org/docs/api/fred/,Official/data-provider page
+data,Nasdaq Data Link,https://data.nasdaq.com/,Official/data-provider page
+data,Yahoo Finance ecosystem,https://finance.yahoo.com/,Official/data-provider page
+data,Kaggle Lending Club,https://www.kaggle.com/datasets/wordsforthewise/lending-club,Official/data-provider page
+data,Kaggle Home Credit,https://www.kaggle.com/competitions/home-credit-default-risk/data,Official/data-provider page
+data,Ken French Data Library,https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html,Official/data-provider page
+data,BSE India,https://www.bseindia.com/,Official/data-provider page
+data,Alpha Vantage,https://www.alphavantage.co/,Official/data-provider page
+regulatory,SEBI MF Master Circular Mar-2026,https://www.sebi.gov.in/legal/master-circulars/mar-2026/master-circular-for-mutual-funds_100208.html,Official regulator/standards landing page
+regulatory,RBI NBFC Concentration Risk Management + 2026 amendment,https://www.rbi.org.in/Scripts/NotificationUser.aspx,Official regulator/standards landing page
+regulatory,RBI NBFC provisioning/income-recognition 2026 amendment,https://www.rbi.org.in/Scripts/NotificationUser.aspx,Official regulator/standards landing page
+regulatory,RBI gold-loan framework / 2025 material,https://www.rbi.org.in/,Official regulator/standards landing page
+regulatory,Basel stress-testing principles,https://www.bis.org/publ/bcbs155.htm,Official regulator/standards landing page
+regulatory,Basel credit-risk framework,https://www.bis.org/basel_framework/standard/CRE.htm,Official regulator/standards landing page
+regulatory,Basel market-risk framework,https://www.bis.org/basel_framework/standard/MAR.htm,Official regulator/standards landing page
+regulatory,IFRS 9,https://www.ifrs.org/issued-standards/list-of-standards/ifrs-9-financial-instruments/,Official regulator/standards landing page
+regulatory,Ind AS 109,https://www.mca.gov.in/,Official regulator/standards landing page

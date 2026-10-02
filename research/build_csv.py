@@ -88,7 +88,8 @@ def commercial():
 
 def repos():
     out = []
-    for section, header, rows in tables(AGENTS / "agent4.md"):
+    for section, header, rows in (t for f in ("agent4.md", "agent11_crosscheck.md")
+                                  for t in tables(AGENTS / f)):
         if "Repo" not in header:
             continue
         for r in rows:

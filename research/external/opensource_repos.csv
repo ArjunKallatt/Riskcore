@@ -1,0 +1,6 @@
+repo,stars,last_updated,license,language,purpose,reuse_potential,link
+PyPortfolio/PyPortfolioOpt,~6.1k,Verify release/commit before deployment,MIT,Python,"Mean-variance, Black-Litterman, HRP, covariance models, discrete allocation",High,https://github.com/PyPortfolio/PyPortfolioOpt
+dcajasn/Riskfolio-Lib,~4.5k,Verify release/commit before deployment,BSD-3-Clause,Python,Portfolio optimization and risk measures,High,https://github.com/dcajasn/Riskfolio-Lib
+ranaroussi/quantstats,Verify live count,Verify release/commit before deployment,Apache-2.0,Python,Performance/risk analytics and tearsheets,High,https://github.com/ranaroussi/quantstats
+OpenBB-finance/OpenBB,Verify live count,Verify release/commit before deployment,Apache-2.0,Python,Market-data integration and analyst platform,Medium,https://github.com/OpenBB-finance/OpenBB
+lballabio/QuantLib,Verify live count,Verify release/commit before deployment,BSD-style,C++/Python,"Fixed-income, derivatives and pricing analytics",Medium,https://github.com/lballabio/QuantLib

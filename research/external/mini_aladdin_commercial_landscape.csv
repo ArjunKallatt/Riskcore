@@ -1,0 +1,22 @@
+platform,category,key_features,target_users,pricing,link
+BlackRock Aladdin,Enterprise investment/risk platform,Common data language; whole-portfolio public/private; risk/return; scenarios/stress; portfolio management; APIs; Data Cloud; wealth; climate,"Asset managers, asset owners, insurers, wealth, banks",Not public / enterprise sales,https://www.blackrock.com/aladdin
+MSCI Barra / PortfolioManager,Portfolio risk / attribution / optimization,"Risk/return attribution, what-if, construction, optimization, backtesting, peer analytics","Asset managers, asset owners, risk teams",Not public,https://www.msci.com/our-solutions/analytics/barra-portfolio-manager
+SimCorp Axioma Risk,Multi-asset risk,"Top-down/full revaluation, stress, what-if, factors, SaaS/cloud",Institutional investors / banks,Not public,https://www.simcorp.com/products/axioma/axioma-risk
+SimCorp Axioma Portfolio Analytics,Portfolio analytics,"Risk analytics, factor/Brinson attribution, time-series, reporting",Buy-side / institutional,Not public,https://www.simcorp.com/products/axioma/portfolio-analytics
+SimCorp Axioma Portfolio Optimizer,Optimization/rebalancing,"Constraints, frontier, optimization, batch rebalancing, backtesting",Portfolio managers / quants,Not public,https://www.simcorp.com/products/axioma/portfolio-optimizer
+Murex MX.3,Front-to-back investment platform,Portfolio/trading/compliance/risk/performance/accounting; VaR/ES/stress; credit/liquidity,Banks / buy-side,Not public,https://www.murex.com/en/investment-management
+Clearwater Analytics,Cloud investment operations + analytics,"Portfolio management, accounting, reconciliation, performance, compliance, risk","Asset owners/managers, insurers",Not public,https://clearwateranalytics.com/
+Charles River IMS,Cloud investment/wealth platform,"Front-office investment management, compliance, workflow","Asset managers, asset owners, insurers, wealth",Not public,https://www.crd.com/
+FactSet Portfolio Analytics,Portfolio/market analytics,"Whole-portfolio analytics, public/private data, risk workflows","Buy-side, wealth, private capital, corporates",Not public,https://www.factset.com/
+Bloomberg PORT,Portfolio analytics/risk,"Portfolio analytics, risk, attribution, scenario/portfolio workflows",Institutional investors,Not public,https://www.bloomberg.com/professional/product/portfolio-and-risk-analytics/
+Addepar,Wealth / multi-asset platform,"Portfolio reporting, aggregation, analytics, client workflows","Wealth managers, family offices, institutions",Not public,https://addepar.com/
+smallcase,Indian retail/model portfolio platform,"Equity/ETF/MF baskets, construction, rebalancing, portfolio views",Indian retail / advisors,Mixed,https://www.smallcase.com/
+Finastra Loan IQ,Loan servicing / lending,Commercial lending front-to-back; bilateral/syndicated; centralized servicing,Banks / lenders,Not public,https://www.finastra.com/lending/loan-iq
+Oracle Financial Services / OFSAA,Banking risk analytics,"Risk-adjusted performance, compliance, risk; IFRS 9 workflows",Banks / financial institutions,Not public,https://www.oracle.com/financial-services/financial-services-analytical-applications/
+S&P Global Credit Analytics / RiskGauge,Credit portfolio analytics,"Company/country/industry stratification, comparative scores, monitoring","Banks, risk teams, investors",Not public,https://www.spglobal.com/market-intelligence/en/solutions/credit-analytics
+Experian credit risk modelling,Credit risk analytics,"Predictive models, data, ML, explainability/model governance",Lenders / risk teams,Not public,https://www.experian.com/decision-analytics/credit-risk-modelling.html
+Moody’s Analytics,Credit risk / ECL benchmark,Credit risk modelling and portfolio analytics; product-specific IFRS 9 scope to verify,Banks / insurers / lenders,Not public,https://www.moodys.com/
+FICO,Credit decisioning / risk,"Scoring, decisioning and portfolio risk ecosystem; module-specific scope to verify",Lenders / banks,Not public,https://www.fico.com/
+SAS,Enterprise credit risk / modelling,"Credit modelling, stress/model-risk ecosystem; module-specific scope to verify",Banks / lenders,Not public,https://www.sas.com/
+CRIF,Credit bureau / analytics,Credit data and analytics; product-specific ECL scope to verify,Lenders / banks,Commercial,https://www.crif.com/
+TransUnion CIBIL,Credit bureau / data input,Indian consumer/commercial credit information,Banks / NBFCs / fintechs,Commercial,https://www.transunioncibil.com/
