@@ -14,3 +14,5 @@ streamlit run app.py
 ```
 
 Roadmap: mutual funds & bonds via QuantLib, optimization (PyPortfolioOpt), loan-book (PD/LGD/EAD) module on synthetic data.
+
+Research: see [research/REPORT.md](research/REPORT.md) for the landscape, data, regulation and 6-week roadmap.
