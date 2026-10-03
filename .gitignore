@@ -1,3 +1,5 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+# Paid product: kept out of this public repo
+kit/
